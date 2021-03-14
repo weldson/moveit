@@ -1,7 +1,10 @@
 import '../styles/global.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MoveIt({ Component, pageProps }) {
+
+  return (
+    <Component {...pageProps} />
+  )
 }
 
-export default MyApp
+export default MoveIt
